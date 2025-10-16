@@ -2,7 +2,7 @@ import { navLinks } from '../../constants'
 
 const Navbar = () => {
   return (
-    <header className="px-6 py-4 border-b border-gray-800">
+    <header className="px-6 py-4">
         <nav className="flex justify-between align-center">
             <img src="/logo.svg" alt="Apple" />
 
