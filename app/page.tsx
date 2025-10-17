@@ -1,12 +1,16 @@
 import Navbar from "@/components/Layouts/Navbar";
 import Hero from "@/components/Sections/Hero";
-import Image from "next/image";
+import ProductViewer from "@/components/Sections/ProductViewer";
+import gsap from "gsap"
+import { ScrollTrigger } from "gsap/all"
+gsap.registerPlugin(ScrollTrigger)
 
 export default function Home() {
   return (
     <main>
       <Navbar />
       <Hero />
+      <ProductViewer />
     </main>
   );
 }
